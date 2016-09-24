@@ -1,0 +1,191 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <title>Pocketle Search</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Google Roboto Font-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+         <!--Twitter Bootstrap CSS-->
+        <link href="assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <!--custom style--> 
+        <link href="assets/common/css/style.min.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body id="serach-result"> 
+        <header> 
+            <div class="container-fluid">
+                <!--Logo Image--> 
+                <div class="col-md-2">
+                    <a href="#" class="logo"><img src="assets/common/images/logo.png" alt="Pocketle" class="logo img-responsive center-block"/></a>
+                </div>
+                <!--Search Bar, Buttons-->
+                <div class="col-md-5 search">
+                    <div class="form-group">
+                        <label class="control-label sr-only" for="search">Search</label>
+                        <input type="text" class="form-control" id="search"/>
+                        <span class="icons">
+                            <a href="#"><img src="assets/common/images/cart.png" alt="cart" class="img-responsive"/></a>
+                            <a href="#"><img src="assets/common/images/process.png" alt="search" class="img-responsive"/></a>
+                            <a href="#"><img src="assets/common/images/listen.png" alt="microphone" class="img-responsive"/></a>
+                        </span>                            
+                        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                    </div> 
+                </div> 
+                <div class="col-md-5">
+                    <nav class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-search-nav">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="top-search-nav">
+                            <ul class="nav navbar-nav navbar-right"> 
+                                <li><a href="#"><i class="glyphicon glyphicon-th-large"></i></a></li>
+                                <li><a href="#">Sign In</a></li> 
+                            </ul>
+                        </div>  
+                    </nav>
+                </div>
+            </div>
+        </header> <!--End of Header--> 
+
+        <!--Search Navigation-->
+        <section id="search-nav">  
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="col-md-10 col-md-offset-2">
+                        <div class="row">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#search-tool" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button> 
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse row navbar-collapse" id="search-tool">
+                                <ul class="nav navbar-nav">  
+                                    <li><a href="#">All</a></li> 
+                                    <li><a href="#">Images</a></li> 
+                                    <li><a href="#">Videos</a></li> 
+                                    <li><a href="#">News</a></li> 
+                                    <li><a href="#">Maps</a></li> 
+                                    <li><a href="#">More</a></li> 
+                                </ul>
+                                <form class="navbar-form navbar-left"> 
+                                    <ul class="nav navbar-nav">
+                                        <li class="dropdown">
+
+                                            <button type="button" class="dropdown-toggle btn btn-default btn-search" data-toggle="dropdown" role="button">Search</button>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Tool 1</a></li>
+                                                <li><a href="#">Tool 2</a></li>
+                                                <li><a href="#">Tool 3</a></li> 
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </form> 
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-cog"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Setting 1</a></li>
+                                            <li><a href="#">Setting 2</a></li>
+                                            <li><a href="#">Setting 3</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div><!-- /.navbar-collapse -->                            
+                        </div>
+                    </div><!-- /.container-fluid -->
+                </div>
+            </nav>
+        </section><!--End of Navigation-->
+
+        <!--Text Content Section-->
+        <section id="text-content">
+            <div class="container-fluid">
+                <div class="row">                    
+                    <div class="col-md-6 col-md-offset-2">
+                        <div class="desc-wrapper">
+                            <div class="col-md-12">
+                                <h3>Google</h3>
+                                <a href="https://www.google.lk/" title="Google">https://www.google.lk/</a>
+                                <p>
+                                    Sri Lanka. Advanced search Language tools. Google.lk offered in :- Advertising
+                                    Programs About Google.com 2016 - Privacy - Terms.
+                                    You've visited this page 4 times, Last visit: 8/19/15
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <h3>Google Maps</h3>
+                                <p>
+                                    Find local businesses, view maps
+                                    and get driving directions in ...
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <h3>Google Driv</h3>
+                                <p>
+                                    Google Drive
+                                    Drive starts you with 15 GB of free 
+                                    Google online storage, so you ...
+                                </p>
+                            </div>
+                            <div class="col-md-12">
+                                <p>More results from google.lk "</p>
+                            </div> 
+                        </div> 
+                    </div> 
+                    <div class="col-md-4"> 
+                        <div class="desc-wrapper">
+                            <div class="google-comp-header">  
+                                <div class="col-md-6">
+                                    <h2>Google</h2>
+                                    <p>Technology Company</p>                            
+                                </div>
+                                <div class="col-md-6"> 
+                                    <div class="share-icon">
+                                        <img src="assets/common/images/share-symbol.png" alt="share icon" class="img-responsive"/>
+                                    </div>
+                                    <img src="assets/common/images/Google_-G-_Logo.png" alt="google logo g" class="img-responsive"/>
+                                </div> 
+                            </div> 
+                            <div class="col-md-12">
+                                <hr />
+                            </div>
+                            <div class="col-md-12">
+                                <p>Google is an American multinational technology company specializing in 
+                                    Internet-related services and products. These include online advertising 
+                                    technologies, search, cloud computing and software Wikipedia
+                                </p>
+                                <div class="company-info"> 
+                                    <p><span>CEO:</span> Sundar Pichai</p>
+                                    <p><span>Founded: </span> September 4, 1998. Menlo Park, California,</p>
+                                    <p><span>Headquarters:</span> Mountain View, California, United States</p>
+                                    <p><span>Revenue:</span>  74.54 billion USD</p>
+                                    <p><span>Video games:</span>  Tilt Brush, Google Lively</p>
+                                    <p><span>Video games:</span>Larry Page, Sergey Brin</p>
+                                    <p><span>Parent Organization:</span> Alphabet Inc.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <!--End Text Content Section-->
+        
+        <!--All js file, best practice for loading, bandwidth-->
+        <!--jQuery-->
+        <script src="assets/lib/jquery/jquery.min.js" type="text/javascript"></script>
+        <!--Twitter Bootstrap JS-->
+        <script src="assets/lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    </body>
+</html> 
